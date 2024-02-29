@@ -1,9 +1,14 @@
 
+import Chai  from "./chai"
 
 function App() {
 
   return (
-   <h1>Ayan Maity(vite)</h1>
+  // <>      ---> called as fragment 
+  <>
+  <h1>Ayan Maity(vite)</h1>
+   <Chai/>
+   </>
   )
 }
 
